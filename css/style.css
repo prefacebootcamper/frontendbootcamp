@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
+/*Self introduction*/
+h1 {
+    font-weight: bold;
+    font-size:80px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size:35px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.avatar-image {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 10%;
+    height: auto;
+}
+
+/*social media*/
+.social-media {
+    text-align: center;
+}
+
+i {
+    opacity: 78%;
+}
+
+/*footer*/
+
+hr {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.foot-links {
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+    color: grey;
+}
+
+/*style the page*/
+body {
+    background-color: rgb(230,231,233);
+    background-image: url('../images/landing_page/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position-y: -115px;
+}
+
+.vertical-center {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
